@@ -36,3 +36,7 @@ print(imena[50:55])
 unikatna_imena = list(dict.fromkeys(imena))#list da pretvorimo nazaj v seznam, dict.fromkeys slovarji po definiciji nimajo ponavljanj, zato usako ime enkrat
 print("stevilo unikatnih imen:", len(unikatna_imena))
 print(unikatna_imena[:5])
+
+točke = tocke = re.findall(r'players-list__points">(\d+)', odgovor.text) #del /d+ je da so samo številke 
+print("Število točk:", len(tocke))
+print(tocke[:5])

@@ -34,3 +34,4 @@ df = pd.DataFrame({
 print(df)
 df.to_csv("igralke.csv", index=False) #csv - comma separeted values, index =false je to da ne sprinta nteksa
 print("Shranjeno v igralke.csv")
+
