@@ -151,7 +151,7 @@ zmage = [par[0] for par in seznam_zmag_porazov]
 porazi = [par[1] for par in seznam_zmag_porazov]
 
 df_profili = pd.DataFrame({
-    "Povezava-Ime": seznam_imen_za_profile,
+    "PovezavaIme": seznam_imen_za_profile,
     "DatumRojstva": seznam_starosti,
     "Visina": seznam_visin,
     "Zmage": zmage,
