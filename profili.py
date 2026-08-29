@@ -12,7 +12,9 @@ def pridobi_profile():
     povezave_unikatne = list(dict.fromkeys(povezave))
 
     URL_OSNOVNI = "https://www.wtatennis.com"
-    HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+    HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/123.0.0.0 Safari/537.36"}
 
     os.makedirs("shranjene_strani", exist_ok=True)
 
@@ -74,7 +76,7 @@ def pridobi_profile():
     })
 
     df_profili.to_csv("profili.csv", index=False)
-    print("Podatki o profilih shranjeni v profili.csv")
+    print("Podatki shranjeni v profili.csv")
     return df_profili
 
 

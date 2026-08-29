@@ -11,7 +11,7 @@ def zdruzi_podatke():
     df_koncni = df_koncni.drop(columns=["PovezavaIme"])
 
     df_koncni.to_csv("wta_podatki_koncni.csv", index=False)
-    print("Končni podatki shranjeni v wta_podatki_koncni.csv")
+    print("Podatki so shranjeni v wta_podatki_koncni.csv")
     return df_koncni
 
 

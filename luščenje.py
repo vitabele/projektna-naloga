@@ -19,7 +19,7 @@ def osnovni_podatki():
     })
 
     df.to_csv("igralke.csv", index=False)
-    print("Osnovni podatki shranjeni v igralke.csv")
+    print("Podatki shranjeni v igralke.csv")
     return df
 
 
