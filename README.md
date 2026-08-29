@@ -1,7 +1,7 @@
 # ANALIZA TRENUTNIH PETDESETIH NAJBOLJŠIH TENIŠKIH IGRALK
 
 ## OPIS
-Program zajame podatke o 50 najboljših igralkah iz uradne spletne strani WTA [wtatennis.com](https://www.wtatennis.com/players). Za vsako igralko pridobi osnovne podatke, npr. ime, država, točke. Obenem pa tudi dodatne podatke iz profila posamezne igralke npr. starost, višina, delež zmag/porazov... Podatki so analizirani in predstavljeni v Juptyer Notebooku z grafi. 
+Program zajame podatke o 50 najboljših igralkah iz uradne spletne strani WTA [wtatennis.com](https://www.wtatennis.com/players). Za vsako igralko pridobi osnovne podatke, npr. ime, država, točke. Obenem pa tudi dodatne podatke iz profila posamezne igralke npr. starost, višina, delež zmag/porazov... Podatki so analizirani in predstavljeni v Jupyter Notebooku z grafi. 
 
 ## Struktura 
 - `prenos.py` - prenese in shrani HTML stran z lestvico igralk
@@ -13,7 +13,7 @@ Program zajame podatke o 50 najboljših igralkah iz uradne spletne strani WTA [w
 - `shranjene_strani/` - lokalno shranjene HTML strani (cache)
 
 ## Zagon
-Projekt se zažene preko glavne datoteke main.py, ki zaporedno izvede vse potrebne ukaze. 
+Projekt se zažene preko glavne datoteke main.py, ki zaporedno izvede vse potrebne ukaze za analizo podatkov. 
 
 ## Rezultati
-Rezultati in ugotovitve so zabeležen v zaključku datoteke analiza_podatkov.ipynb. 
+Rezultati in ugotovitve so zabeleženi v zaključku datoteke analiza_podatkov.ipynb. 
