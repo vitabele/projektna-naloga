@@ -1,2 +1,2 @@
 Pogovor z umetno inteligenco:
-https://claude.ai/share/e5f192b8-1244-492f-95cf-128fadff59b4
+https://claude.ai/share/fb0b14ed-f91a-46e7-bf3a-645ff0135ea8
